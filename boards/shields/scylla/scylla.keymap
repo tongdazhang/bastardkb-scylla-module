@@ -81,7 +81,7 @@
 &kp LSHFT   &kp A   &kp S   &kp D   &kp F   &kp G                                                   &kp H      &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V   &kp B                                                   &kp N      &kp M   &kp COMMA  &kp DOT  &kp SLASH  &kp BSLH
                                            &kp LCTRL  &kp SPACE   &mo ADJUST   &mo LOWER  &kp ENTER  &kp RGUI
-                                                      &kp HOME    &kp  BSPC   &kp  DEL    &kp RALT
+                                                      &kp LALT    &kp  BSPC   &kp  DEL    &kp RALT
       >;
     };
 
