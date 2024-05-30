@@ -110,7 +110,7 @@
 &trans     &kp EXCL  &kp AT  &none     &none     &kp MINUS                                           &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp QMARK  &kp UNDER
 &trans     &none     &none   &none     &kp RBRC  &kp EQUAL                                           &kp EQUAL  &none     &none     &none      &none      &none
                                                  &trans     &trans  &caps_word  &trans   &sys_reset  &trans
-                                                            &trans  &trans      &trans   &bootloader
+                                                            &trans  &trans      &trans   &trans
       >;
     };
 
@@ -138,7 +138,7 @@
 &trans     &kp EXCL  &kp AT  &kp LPAR  &kp RPAR  &kp MINUS                                           &kp MINUS  &kp FSLH  &kp STAR  &kp TILDE  &kp QMARK  &kp UNDER
 &trans     &none     &none   &kp LBRC  &kp RBRC  &kp EQUAL                                           &kp EQUAL  &kp AMPS  &kp PIPE  &kp CARET  &trans     &trans
                                                  &trans     &sys_reset   &trans   &caps_word  &trans  &trans
-                                                            &bootloader  &trans   &trans      &trans
+                                                            &trans  &trans   &trans      &trans
       >;
     };
 
@@ -164,7 +164,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                              &none         &none       &none     &none       &none  &out OUT_BLE
 &bt BT_NXT  &none         &none         &none         &none         &kp C_VOL_UP                              &kp C_BRI_UP  &none       &none     &none       &none  &out OUT_USB
 &bt BT_PRV  &none    &rgb_ug RGB_EFR &rgb_ug RGB_TOG &rgb_ug RGB_EFF &kp C_VOL_DN                              &kp C_BRI_DN  &kp C_PREV  &kp C_PP  &kp C_NEXT  &none  &none
-&none       &none         &none         &none         &none         &kp C_MUTE                                &none         &none       &none     &none       &none  &none
+&none       &none         &none         &none         &bootloader         &kp C_MUTE                                &bootloader         &none       &none     &none       &none  &none
                                                                     &trans        &none  &none  &none  &none  &trans
                                                                                   &none  &none  &none  &none
       >;
